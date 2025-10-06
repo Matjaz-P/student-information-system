@@ -1,0 +1,43 @@
+<div class="custom-paginator">
+  <div class="paginator-left">
+    <span class="showing-text">
+      Showing {{ firstRow }} to {{ lastRow }} of {{ totalRecords }} entries
+    </span>
+  </div>
+
+  <div class="paginator-right">
+    <p-select
+      [options]="rowsPerPageOptions"
+      [(ngModel)]="rows"
+      (ngModelChange)="onRowsChange($event)"
+      styleClass="rows-dropdown">
+    </p-select>
+
+    <div class="paginator-controls">
+      <button
+        class="paginator-btn"
+        [disabled]="currentPage === 1"
+        (click)="previousPage()">
+        <i class="pi pi-chevron-left"></i>
+      </button>
+
+      <ng-container *ngFor="let page of visiblePages">
+        <span *ngIf="page === '...'" class="paginator-ellipsis">...</span>
+        <button
+          *ngIf="page !== '...'"
+          class="paginator-btn page-btn"
+          [class.active]="page === currentPage"
+          (click)="handlePageClick(page)">
+          {{ page }}
+        </button>
+      </ng-container>
+
+      <button
+        class="paginator-btn"
+        [disabled]="currentPage === totalPages"
+        (click)="nextPage()">
+        <i class="pi pi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</div>

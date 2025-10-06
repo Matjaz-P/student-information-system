@@ -1,0 +1,15 @@
+﻿// Responsive tweaks for smaller screens
+@media (max-width: 768px) {
+  .student-overview {
+    .student-table {
+      .p-datatable-thead,
+      .p-datatable-tbody {
+        .col-id,
+        .col-phone,
+        .col-birthdate {
+          display: none;
+        }
+      }
+    }
+  }
+}

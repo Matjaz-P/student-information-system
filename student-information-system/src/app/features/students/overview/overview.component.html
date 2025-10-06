@@ -1,0 +1,360 @@
+<div class="student-overview">
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <h1 class="top-bar-title">Student Information System</h1>
+      <p class="top-bar-subtitle">Overview of current enrolments</p>
+    </div>
+  </div>
+
+  <div class="students-wrapper">
+    <p-toolbar styleClass="students-toolbar">
+      <div class="p-toolbar-group-start">
+        <div class="toolbar-title">
+          <h2 class="page-title">Students</h2>
+          <span class="page-subtitle">Manage course enrollments and records</span>
+        </div>
+      </div>
+      <div class="p-toolbar-group-end">
+        <p-button
+          label="Add Student"
+          icon="pi pi-plus"
+          (onClick)="openAddDialog()"
+          styleClass="add-student-btn">
+        </p-button>
+      </div>
+    </p-toolbar>
+
+    <p-table
+      [value]="students"
+      [rows]="rows"
+      [(first)]="first"
+      [totalRecords]="students.length"
+      [paginator]="true"
+      [pageLinks]="5"
+      [showCurrentPageReport]="false"
+      [rowsPerPageOptions]="rowsPerPageOptions"
+      paginatorPosition="bottom"
+      styleClass="student-table"
+      [customSort]="true"
+      (sortFunction)="customSort($event)"
+      (onPage)="onPageChange($event)">
+
+      <ng-template pTemplate="header">
+        <tr>
+          <th class="col-id" pSortableColumn="id" scope="col">
+            # Student ID <p-sortIcon field="id"></p-sortIcon>
+          </th>
+          <th class="col-name" pSortableColumn="firstName" scope="col">
+            Full Name <p-sortIcon field="firstName"></p-sortIcon>
+          </th>
+          <th class="col-email" pSortableColumn="email" scope="col">
+            Email <p-sortIcon field="email"></p-sortIcon>
+          </th>
+          <th class="col-phone" pSortableColumn="phoneNumber" scope="col">
+            Phone Number <p-sortIcon field="phoneNumber"></p-sortIcon>
+          </th>
+          <th class="col-birthdate" pSortableColumn="birthdate" scope="col">
+            Birthdate <p-sortIcon field="birthdate"></p-sortIcon>
+          </th>
+          <th class="col-courses" scope="col">Enrolled Courses</th>
+          <th class="col-actions actions-column" scope="col">Actions</th>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="body" let-student>
+        <tr>
+          <td class="id-cell col-id">{{ student.id }}</td>
+          <td class="name-cell col-name">
+            <div class="name-block">
+              <div class="name-with-avatar">
+                <div class="avatar">{{ getInitials(student) }}</div>
+                <span class="full-name">{{ getFullName(student) }}</span>
+              </div>
+            </div>
+          </td>
+          <td class="email-cell col-email">{{ student.email }}</td>
+          <td class="phone-cell col-phone">{{ student.phoneNumber }}</td>
+          <td class="col-birthdate">{{ getFormattedBirthdate(student.birthdate) }}</td>
+          <td class="courses-cell col-courses">
+            <div class="course-tags">
+              <p-tag
+                *ngFor="let courseName of getVisibleCourses(student.enrolledCourses); let i = index"
+                severity="secondary"
+                styleClass="course-tag"
+                [pTooltip]="courseName"
+                tooltipPosition="top">
+                <i class="pi pi-book course-tag__icon" aria-hidden="true"></i>
+                {{ courseName }}
+              </p-tag>
+              <p-tag
+                *ngIf="student.enrolledCourses.length > 2"
+                severity="secondary"
+                styleClass="course-tag overflow-tag"
+                [pTooltip]="getRemainingCourses(student.enrolledCourses).join(', ')"
+                tooltipPosition="top">
+                +{{ student.enrolledCourses.length - 2 }} more
+              </p-tag>
+            </div>
+          </td>
+          <td class="col-actions">
+            <div class="action-buttons">
+              <p-button
+                icon="pi pi-pencil"
+                (onClick)="openEditDialog(student)"
+                [rounded]="true"
+                [text]="true"
+                styleClass="action-btn edit-btn"
+                pTooltip="Edit Courses"
+                tooltipPosition="top"
+                ariaLabel="Edit student courses">
+              </p-button>
+              <p-button
+                icon="pi pi-trash"
+                (onClick)="deleteStudent(student)"
+                [rounded]="true"
+                [text]="true"
+                styleClass="action-btn delete-btn"
+                pTooltip="Delete Student"
+                tooltipPosition="top"
+                ariaLabel="Delete student">
+              </p-button>
+            </div>
+          </td>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="emptymessage">
+        <tr>
+          <td colspan="7" class="empty-state">
+            <div class="empty-state-content">
+              <i class="pi pi-users empty-state-icon" aria-hidden="true"></i>
+              <h3 class="empty-state-title">No students yet</h3>
+              <p class="empty-state-subtitle">Get started by adding your first student</p>
+              <p-button
+                label="Add Student"
+                icon="pi pi-plus"
+                (onClick)="openAddDialog()"
+                styleClass="add-student-btn empty-state-cta">
+              </p-button>
+            </div>
+          </td>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="paginatorleft">
+        <span class="showing-text">Showing {{ getFirstRow() }} to {{ getLastRow() }} of {{ getTotalRecords() }} entries</span>
+      </ng-template>
+
+      <ng-template pTemplate="paginatorright">
+        <span class="show-label">Show</span>
+        <div class="custom-page-links-wrapper">
+          <div class="custom-page-links">
+            <ng-container *ngFor="let page of getPageNumbers()">
+              <span *ngIf="page === '...'" class="page-ellipsis">...</span>
+              <button
+                *ngIf="page !== '...'"
+                class="page-btn"
+                [class.active]="page === currentPage"
+                (click)="handlePageClick(page)">
+                {{ page }}
+              </button>
+            </ng-container>
+          </div>
+        </div>
+      </ng-template>
+    </p-table>
+  </div>
+
+  <p-dialog
+    [(visible)]="displayAddDialog"
+    [modal]="true"
+    [draggable]="false"
+    [resizable]="false"
+    [style]="{width: '700px'}"
+    ariaLabel="Add New Student"
+    styleClass="student-dialog add-student-dialog">
+
+    <ng-template pTemplate="header">
+      <div class="add-student-dialog__header">
+        <h2 class="add-student-dialog__title">Add New Student</h2>
+        <p class="add-student-dialog__subtitle">Fill in the details below to create the student record.</p>
+      </div>
+    </ng-template>
+
+    <form
+      [formGroup]="studentForm"
+      (ngSubmit)="addStudent()"
+      class="student-form p-fluid">
+      <div class="form-grid-2x3">
+        <div class="field">
+          <label for="firstName">First Name *</label>
+          <input
+            pInputText
+            id="firstName"
+            formControlName="firstName"
+            placeholder="First name" />
+          <small class="p-error" *ngIf="studentForm.get('firstName')?.invalid && studentForm.get('firstName')?.touched">
+            First name is required.
+          </small>
+        </div>
+        <div class="field">
+          <label for="lastName">Last Name *</label>
+          <input
+            pInputText
+            id="lastName"
+            formControlName="lastName"
+            placeholder="Last name" />
+          <small class="p-error" *ngIf="studentForm.get('lastName')?.invalid && studentForm.get('lastName')?.touched">
+            Last name is required.
+          </small>
+        </div>
+        <div class="field">
+          <label for="email">Email *</label>
+          <input
+            pInputText
+            id="email"
+            type="email"
+            formControlName="email"
+            placeholder="email@example.com" />
+          <small class="p-error" *ngIf="studentForm.get('email')?.invalid && studentForm.get('email')?.touched">
+            Valid email is required.
+          </small>
+        </div>
+        <div class="field">
+          <label for="phoneNumber">Phone Number *</label>
+          <input
+            pInputText
+            id="phoneNumber"
+            type="tel"
+            formControlName="phoneNumber"
+            placeholder="+1 (555) 123-4567" />
+          <small class="p-error" *ngIf="studentForm.get('phoneNumber')?.invalid && studentForm.get('phoneNumber')?.touched">
+            Phone number is required.
+          </small>
+        </div>
+        <div class="field">
+          <label for="birthdate">Birthdate *</label>
+          <p-datepicker
+            inputId="birthdate"
+            formControlName="birthdate"
+            dataType="date"
+            dateFormat="dd/mm/yy"
+            placeholder="dd/mm/yyyy"
+            [showIcon]="true"
+            iconDisplay="input"
+            appendTo="body"
+            panelStyleClass="date-panel"
+            styleClass="date-picker">
+          </p-datepicker>
+          <small class="p-error" *ngIf="studentForm.get('birthdate')?.invalid && studentForm.get('birthdate')?.touched">
+            Birthdate is required.
+          </small>
+        </div>
+        <div class="field">
+          <label for="courses">Enrolled Courses *</label>
+          <p-multiSelect
+            id="courses"
+            [options]="courses"
+            formControlName="enrolledCourses"
+            optionLabel="name"
+            optionValue="id"
+            placeholder="Select courses"
+            [filter]="false"
+            [showHeader]="false"
+            [maxSelectedLabels]="0"
+            selectedItemsLabel="{0} selected"
+            appendTo="body"
+            display="chip"
+            panelStyleClass="courses-panel"
+            styleClass="courses-multiselect w-full">
+          </p-multiSelect>
+          <small class="p-error" *ngIf="studentForm.get('enrolledCourses')?.invalid && studentForm.get('enrolledCourses')?.touched">
+            At least one course is required.
+          </small>
+        </div>
+      </div>
+
+      <div class="dialog-footer">
+        <p-button
+          label="Cancel"
+          icon="pi pi-times"
+          (onClick)="closeAddDialog()"
+          [text]="true"
+          styleClass="ghost-btn">
+        </p-button>
+        <p-button
+          label="Save Student"
+          icon="pi pi-check"
+          type="submit"
+          [disabled]="studentForm.invalid"
+          styleClass="primary-btn">
+        </p-button>
+      </div>
+    </form>
+  </p-dialog>
+
+  <p-dialog
+    header="Edit Enrolled Courses"
+    [(visible)]="displayEditDialog"
+    [modal]="true"
+    [draggable]="false"
+    [resizable]="false"
+    [style]="{width: '640px'}"
+    styleClass="student-dialog edit-student-dialog">
+
+    <form [formGroup]="editForm" (ngSubmit)="updateStudentCourses()" class="student-form p-fluid">
+      <div class="field">
+        <label for="editCourses">Enrolled Courses *</label>
+        <p-multiSelect
+          id="editCourses"
+          [options]="courses"
+          formControlName="enrolledCourses"
+          optionLabel="name"
+          optionValue="id"
+          placeholder="Select courses"
+          [filter]="false"
+          [showHeader]="false"
+          [maxSelectedLabels]="0"
+          selectedItemsLabel="{0} selected"
+          appendTo="body"
+          display="chip"
+          panelStyleClass="courses-panel"
+          styleClass="courses-multiselect w-full">
+        </p-multiSelect>
+        <small class="p-error" *ngIf="editForm.get('enrolledCourses')?.invalid && editForm.get('enrolledCourses')?.touched">
+          At least one course is required.
+        </small>
+      </div>
+
+      <div class="dialog-footer">
+        <p-button
+          label="Cancel"
+          icon="pi pi-times"
+          (onClick)="closeEditDialog()"
+          [text]="true"
+          styleClass="ghost-btn">
+        </p-button>
+        <p-button
+          label="Update"
+          icon="pi pi-check"
+          type="submit"
+          [disabled]="editForm.invalid"
+          styleClass="primary-btn">
+        </p-button>
+      </div>
+    </form>
+  </p-dialog>
+
+  <p-confirmDialog></p-confirmDialog>
+  <p-toast></p-toast>
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,383 @@
+// Dialog layouts and form styling for student modals
+// Global p-dialog border removal
+::ng-deep .p-dialog {
+  border: none !important;
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(149, 99, 173, 0.15);
+
+  .p-button {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+}
+
+.student-dialog {
+  &.p-dialog-mask {
+    .p-dialog {
+      background: transparent !important;
+      border: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  .p-dialog {
+    position: relative;
+    border: 0 !important;
+    border-radius: var(--radius-xl) !important;
+    background: var(--color-surface) !important;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    outline: none;
+    --p-dialog-border-width: 0;
+    --p-dialog-border-color: transparent;
+    --p-dialog-border: 0;
+  }
+
+  .p-dialog-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 2.25rem 2.5rem;
+    background: linear-gradient(135deg, var(--table-header-bg), rgba(74, 60, 77, 0.75));
+    color: #ffffff;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .p-dialog-header-close {
+    margin: 0 !important;
+  }
+
+  .p-dialog-header-icons {
+    margin: 0;
+    padding: 0;
+  }
+
+  .p-dialog-header-icon {
+    color: inherit;
+    border-radius: var(--radius-md);
+    transition: background var(--transition-base), color var(--transition-base);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  .p-dialog-close-button.p-button-rounded.p-button-text {
+    color: #424242;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: var(--radius-sm);
+    width: 2rem;
+    height: 2rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background var(--transition-base), color var(--transition-base), transform var(--transition-base);
+
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    &:hover {
+      background: #ffffff;
+      color: #212529;
+      transform: scale(1.05);
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .p-dialog-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .p-dialog-content {
+    background: var(--color-surface);
+    border: 0 !important;
+    padding: 2.25rem 2.5rem 2.5rem;
+  }
+}
+
+.add-student-dialog {
+  .p-dialog {
+    width: 700px !important;
+    max-width: 100% !important;
+  }
+
+  .add-student-dialog__header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .add-student-dialog__title {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .add-student-dialog__subtitle {
+    margin: 0;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .student-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-grid-2x3 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+    row-gap: 2rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+    padding-bottom: 1.25rem;
+  }
+
+  label {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-700);
+  }
+
+  input[pInputText],
+  .p-inputtext,
+  .p-multiselect {
+    width: 100%;
+  }
+
+  .p-inputtext {
+    padding: 0.75rem 0.875rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--input-border);
+    background: var(--input-bg);
+    color: var(--color-text-700);
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
+  }
+
+  .p-inputtext:enabled:hover {
+    border-color: rgba(149, 99, 173, 0.45);
+  }
+
+  .p-inputtext:enabled:focus {
+    border-color: var(--input-border-focus);
+    box-shadow: 0 0 0 3px rgba(149, 99, 173, 0.18);
+  }
+
+  .p-inputtext.ng-invalid.ng-touched {
+    border-color: rgba(225, 93, 100, 0.9);
+    box-shadow: 0 0 0 2px rgba(225, 93, 100, 0.2);
+  }
+
+  .date-picker .p-inputtext {
+    padding-right: 2.75rem;
+  }
+
+  .date-picker .p-inputsuffix {
+    color: var(--color-primary-600);
+  }
+
+  .p-multiselect {
+    min-height: 46px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--input-border);
+    background: var(--input-bg);
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
+  }
+
+  .p-multiselect:not(.p-disabled):hover,
+  .p-multiselect.p-focus {
+    border-color: var(--input-border-focus);
+    box-shadow: 0 0 0 3px rgba(149, 99, 173, 0.18);
+  }
+
+  .p-multiselect .p-multiselect-label-container {
+    padding: 0.65rem 0.875rem;
+  }
+
+  .p-multiselect .p-multiselect-label {
+    color: var(--color-text-700);
+  }
+
+  .p-error {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+}
+
+.edit-student-dialog {
+  .p-dialog {
+    max-width: 640px !important;
+  }
+
+  .p-dialog-content {
+    padding: 2.25rem 2.5rem 2.5rem;
+  }
+
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .student-form .field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .student-form label {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-700);
+  }
+
+  .student-form .p-multiselect {
+    width: 100% !important;
+    border: 1px solid var(--input-border);
+    border-radius: var(--radius-md);
+    background: var(--input-bg);
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
+  }
+
+  .student-form .p-multiselect:not(.p-disabled):hover,
+  .student-form .p-multiselect.p-focus {
+    border-color: var(--input-border-focus);
+    box-shadow: 0 0 0 3px rgba(149, 99, 173, 0.18);
+  }
+}
+
+.date-panel {
+  background: var(--color-surface);
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  color: var(--color-text-700);
+}
+
+.date-panel .p-datepicker-header {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(149, 99, 173, 0.15);
+}
+
+.date-panel .p-datepicker-calendar td > span {
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-base), color var(--transition-base);
+}
+
+.date-panel .p-datepicker-calendar td > span:hover {
+  background: rgba(149, 99, 173, 0.15);
+}
+
+.date-panel .p-datepicker-calendar td > span.p-highlight {
+  background: var(--color-primary-600);
+  color: #ffffff;
+}
+
+.courses-panel {
+  background: linear-gradient(128deg, rgba(67, 33, 73, 0.96), rgba(51, 28, 69, 0.92));
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.courses-panel .p-multiselect-item {
+  padding: 0.65rem 1rem;
+
+  &.p-highlight {
+    background: rgba(255, 255, 255, 0.18);
+  }
+}
+
+.p-confirm-dialog {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: none;
+
+  .p-dialog-content {
+    border: none;
+  }
+
+  .p-dialog-footer {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: flex-end;
+    padding: 1.5rem;
+
+    .p-button {
+      padding: 0.625rem 1.25rem;
+      font-weight: var(--font-weight-medium);
+      border-radius: var(--radius-full);
+      border: none;
+      transition: all var(--transition-base);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      .p-button-icon {
+        font-size: 0.875rem;
+      }
+
+      &:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(149, 99, 173, 0.25);
+      }
+    }
+
+    .p-confirmdialog-reject-button {
+      background: transparent;
+      color: var(--color-text-700);
+
+      &:hover {
+        background: var(--color-gray-100);
+      }
+    }
+
+    .p-confirmdialog-accept-button {
+      background: var(--color-primary-600);
+      color: #ffffff;
+
+      &:hover {
+        background: var(--color-primary-700);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,2496 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Maja",
+      "lastName": "Vidmar",
+      "email": "maja.vidmar@example.com",
+      "phoneNumber": "+386 40 304 162",
+      "birthdate": "1998-01-11",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Nika",
+      "lastName": "Cigler",
+      "email": "nika.cigler@example.com",
+      "phoneNumber": "+386 40 597 292",
+      "birthdate": "2000-08-28",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Matic",
+      "lastName": "Valant",
+      "email": "matic.valant@example.com",
+      "phoneNumber": "+386 41 435 130",
+      "birthdate": "2000-02-14",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Lucija",
+      "lastName": "Šinko",
+      "email": "lucija.sinko@example.com",
+      "phoneNumber": "+386 51 536 487",
+      "birthdate": "1999-07-09",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "firstName": "Alen",
+      "lastName": "Kralj",
+      "email": "alen.kralj@example.com",
+      "phoneNumber": "+386 41 864 677",
+      "birthdate": "2001-12-02",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "firstName": "Nika",
+      "lastName": "Planinc",
+      "email": "nika.planinc@example.com",
+      "phoneNumber": "+386 51 649 899",
+      "birthdate": "2000-07-28",
+      "enrolledCourses": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "firstName": "David",
+      "lastName": "Tratnik",
+      "email": "david.tratnik@example.com",
+      "phoneNumber": "+386 70 179 692",
+      "birthdate": "2001-01-07",
+      "enrolledCourses": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "firstName": "Lucija",
+      "lastName": "Kobal",
+      "email": "lucija.kobal@example.com",
+      "phoneNumber": "+386 70 110 323",
+      "birthdate": "2001-06-22",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "firstName": "Hana",
+      "lastName": "Hafner",
+      "email": "hana.hafner@example.com",
+      "phoneNumber": "+386 31 557 125",
+      "birthdate": "2000-02-14",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 10,
+      "firstName": "Sara",
+      "lastName": "Kralj",
+      "email": "sara.kralj@example.com",
+      "phoneNumber": "+386 31 550 892",
+      "birthdate": "1998-04-18",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 11,
+      "firstName": "Noah",
+      "lastName": "Stojković",
+      "email": "noah.stojkovic@example.com",
+      "phoneNumber": "+386 31 748 370",
+      "birthdate": "1999-05-03",
+      "enrolledCourses": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "firstName": "Lia",
+      "lastName": "Drobnič",
+      "email": "lia.drobnic@example.com",
+      "phoneNumber": "+386 40 518 939",
+      "birthdate": "2001-06-12",
+      "enrolledCourses": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 13,
+      "firstName": "Tim",
+      "lastName": "Jerman",
+      "email": "tim.jerman@example.com",
+      "phoneNumber": "+386 70 261 950",
+      "birthdate": "1998-08-11",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "firstName": "Jure",
+      "lastName": "Dolenc",
+      "email": "jure.dolenc@example.com",
+      "phoneNumber": "+386 40 103 771",
+      "birthdate": "2000-06-20",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 15,
+      "firstName": "Ema",
+      "lastName": "Kavčič",
+      "email": "ema.kavcic@example.com",
+      "phoneNumber": "+386 51 451 485",
+      "birthdate": "2000-05-20",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 16,
+      "firstName": "Žan",
+      "lastName": "Tratnik",
+      "email": "zan.tratnik@example.com",
+      "phoneNumber": "+386 70 354 179",
+      "birthdate": "1999-06-14",
+      "enrolledCourses": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "firstName": "Zoja",
+      "lastName": "Dolenc",
+      "email": "zoja.dolenc@example.com",
+      "phoneNumber": "+386 31 348 108",
+      "birthdate": "1998-06-13",
+      "enrolledCourses": [
+        4
+      ]
+    },
+    {
+      "id": 18,
+      "firstName": "Vid",
+      "lastName": "Novak",
+      "email": "vid.novak@example.com",
+      "phoneNumber": "+386 51 270 700",
+      "birthdate": "1998-10-06",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 19,
+      "firstName": "Sebastjan",
+      "lastName": "Novak",
+      "email": "sebastjan.novak@example.com",
+      "phoneNumber": "+386 51 501 976",
+      "birthdate": "1999-08-19",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 20,
+      "firstName": "Špela",
+      "lastName": "Planinc",
+      "email": "spela.planinc@example.com",
+      "phoneNumber": "+386 31 296 291",
+      "birthdate": "2001-06-26",
+      "enrolledCourses": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 21,
+      "firstName": "Katarina",
+      "lastName": "Podgornik",
+      "email": "katarina.podgornik@example.com",
+      "phoneNumber": "+386 40 165 309",
+      "birthdate": "1999-11-20",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 22,
+      "firstName": "Neja",
+      "lastName": "Vidmar",
+      "email": "neja.vidmar@example.com",
+      "phoneNumber": "+386 70 798 408",
+      "birthdate": "1999-12-27",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 23,
+      "firstName": "Nina",
+      "lastName": "Slak",
+      "email": "nina.slak@example.com",
+      "phoneNumber": "+386 31 742 114",
+      "birthdate": "2000-04-07",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 24,
+      "firstName": "Rok",
+      "lastName": "Sovdat",
+      "email": "rok.sovdat@example.com",
+      "phoneNumber": "+386 51 673 583",
+      "birthdate": "2001-02-18",
+      "enrolledCourses": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 25,
+      "firstName": "Neja",
+      "lastName": "Cigler",
+      "email": "neja.cigler@example.com",
+      "phoneNumber": "+386 51 243 184",
+      "birthdate": "1998-10-22",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 26,
+      "firstName": "Neja",
+      "lastName": "Slak",
+      "email": "neja.slak@example.com",
+      "phoneNumber": "+386 70 892 591",
+      "birthdate": "2001-08-20",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 27,
+      "firstName": "Lana",
+      "lastName": "Šinko",
+      "email": "lana.sinko@example.com",
+      "phoneNumber": "+386 40 962 809",
+      "birthdate": "2001-07-11",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 28,
+      "firstName": "Ana",
+      "lastName": "Petrič",
+      "email": "ana.petric@example.com",
+      "phoneNumber": "+386 41 191 302",
+      "birthdate": "2000-04-02",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 29,
+      "firstName": "Matic",
+      "lastName": "Golob",
+      "email": "matic.golob@example.com",
+      "phoneNumber": "+386 40 722 560",
+      "birthdate": "2001-09-23",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 30,
+      "firstName": "Neja",
+      "lastName": "Vidmar",
+      "email": "neja.vidmar@example.com",
+      "phoneNumber": "+386 30 419 647",
+      "birthdate": "1998-08-11",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 31,
+      "firstName": "Denis",
+      "lastName": "Tratnik",
+      "email": "denis.tratnik@example.com",
+      "phoneNumber": "+386 41 812 561",
+      "birthdate": "1998-08-19",
+      "enrolledCourses": [
+        4
+      ]
+    },
+    {
+      "id": 32,
+      "firstName": "Filip",
+      "lastName": "Oblak",
+      "email": "filip.oblak@example.com",
+      "phoneNumber": "+386 51 632 950",
+      "birthdate": "2001-04-05",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 33,
+      "firstName": "Luka",
+      "lastName": "Šinko",
+      "email": "luka.sinko@example.com",
+      "phoneNumber": "+386 31 570 465",
+      "birthdate": "2001-10-21",
+      "enrolledCourses": [
+        4
+      ]
+    },
+    {
+      "id": 34,
+      "firstName": "Tian",
+      "lastName": "Cigler",
+      "email": "tian.cigler@example.com",
+      "phoneNumber": "+386 31 118 352",
+      "birthdate": "1998-09-14",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 35,
+      "firstName": "Marko",
+      "lastName": "Lenart",
+      "email": "marko.lenart@example.com",
+      "phoneNumber": "+386 31 795 972",
+      "birthdate": "2001-05-21",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 36,
+      "firstName": "Denis",
+      "lastName": "Zupan",
+      "email": "denis.zupan@example.com",
+      "phoneNumber": "+386 70 835 515",
+      "birthdate": "1998-09-14",
+      "enrolledCourses": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 37,
+      "firstName": "Hana",
+      "lastName": "Repnik",
+      "email": "hana.repnik@example.com",
+      "phoneNumber": "+386 70 268 133",
+      "birthdate": "1999-07-27",
+      "enrolledCourses": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 38,
+      "firstName": "Rok",
+      "lastName": "Repnik",
+      "email": "rok.repnik@example.com",
+      "phoneNumber": "+386 40 623 956",
+      "birthdate": "2000-05-03",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 39,
+      "firstName": "Filip",
+      "lastName": "Repnik",
+      "email": "filip.repnik@example.com",
+      "phoneNumber": "+386 40 521 643",
+      "birthdate": "1998-08-20",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 40,
+      "firstName": "Vid",
+      "lastName": "Ferlin",
+      "email": "vid.ferlin@example.com",
+      "phoneNumber": "+386 30 334 556",
+      "birthdate": "1998-08-28",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 41,
+      "firstName": "Denis",
+      "lastName": "Horvat",
+      "email": "denis.horvat@example.com",
+      "phoneNumber": "+386 30 371 957",
+      "birthdate": "2001-04-13",
+      "enrolledCourses": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 42,
+      "firstName": "Vid",
+      "lastName": "Stojković",
+      "email": "vid.stojkovic@example.com",
+      "phoneNumber": "+386 70 161 556",
+      "birthdate": "2000-12-03",
+      "enrolledCourses": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 43,
+      "firstName": "Urška",
+      "lastName": "Rozman",
+      "email": "urska.rozman@example.com",
+      "phoneNumber": "+386 70 271 404",
+      "birthdate": "2001-02-09",
+      "enrolledCourses": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 44,
+      "firstName": "Tina",
+      "lastName": "Turk",
+      "email": "tina.turk@example.com",
+      "phoneNumber": "+386 70 413 422",
+      "birthdate": "1998-10-25",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 45,
+      "firstName": "Anja",
+      "lastName": "Močnik",
+      "email": "anja.mocnik@example.com",
+      "phoneNumber": "+386 70 608 192",
+      "birthdate": "2000-09-28",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 46,
+      "firstName": "David",
+      "lastName": "Vidmar",
+      "email": "david.vidmar@example.com",
+      "phoneNumber": "+386 40 703 869",
+      "birthdate": "1998-08-07",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 47,
+      "firstName": "Tilen",
+      "lastName": "Kos",
+      "email": "tilen.kos@example.com",
+      "phoneNumber": "+386 40 134 940",
+      "birthdate": "2001-01-10",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 48,
+      "firstName": "Nejc",
+      "lastName": "Pirnat",
+      "email": "nejc.pirnat@example.com",
+      "phoneNumber": "+386 31 112 611",
+      "birthdate": "1998-08-20",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 49,
+      "firstName": "Zala",
+      "lastName": "Toplak",
+      "email": "zala.toplak@example.com",
+      "phoneNumber": "+386 30 598 564",
+      "birthdate": "1998-12-15",
+      "enrolledCourses": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 50,
+      "firstName": "Maša",
+      "lastName": "Horvat",
+      "email": "masa.horvat@example.com",
+      "phoneNumber": "+386 51 193 864",
+      "birthdate": "2000-06-26",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 51,
+      "firstName": "Lovro",
+      "lastName": "Kralj",
+      "email": "lovro.kralj@example.com",
+      "phoneNumber": "+386 41 884 887",
+      "birthdate": "1998-06-10",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 52,
+      "firstName": "Nika",
+      "lastName": "Šinko",
+      "email": "nika.sinko@example.com",
+      "phoneNumber": "+386 70 312 519",
+      "birthdate": "2001-07-13",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 53,
+      "firstName": "Marko",
+      "lastName": "Stojković",
+      "email": "marko.stojkovic@example.com",
+      "phoneNumber": "+386 40 370 439",
+      "birthdate": "1999-02-24",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 54,
+      "firstName": "Jure",
+      "lastName": "Žagar",
+      "email": "jure.zagar@example.com",
+      "phoneNumber": "+386 31 178 992",
+      "birthdate": "2000-10-08",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 55,
+      "firstName": "Luka",
+      "lastName": "Majcen",
+      "email": "luka.majcen@example.com",
+      "phoneNumber": "+386 31 635 202",
+      "birthdate": "1999-11-23",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 56,
+      "firstName": "Zoja",
+      "lastName": "Furlan",
+      "email": "zoja.furlan@example.com",
+      "phoneNumber": "+386 41 108 661",
+      "birthdate": "1998-06-23",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 57,
+      "firstName": "Neja",
+      "lastName": "Bohinc",
+      "email": "neja.bohinc@example.com",
+      "phoneNumber": "+386 51 939 936",
+      "birthdate": "1998-11-16",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 58,
+      "firstName": "Sara",
+      "lastName": "Zorman",
+      "email": "sara.zorman@example.com",
+      "phoneNumber": "+386 51 532 640",
+      "birthdate": "2001-02-03",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 59,
+      "firstName": "Eva",
+      "lastName": "Močnik",
+      "email": "eva.mocnik@example.com",
+      "phoneNumber": "+386 41 261 934",
+      "birthdate": "2000-12-25",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 60,
+      "firstName": "Urška",
+      "lastName": "Zajc",
+      "email": "urska.zajc@example.com",
+      "phoneNumber": "+386 31 257 582",
+      "birthdate": "2001-11-28",
+      "enrolledCourses": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 61,
+      "firstName": "Ana",
+      "lastName": "Lesnik",
+      "email": "ana.lesnik@example.com",
+      "phoneNumber": "+386 40 975 383",
+      "birthdate": "2000-02-13",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 62,
+      "firstName": "Miha",
+      "lastName": "Jerman",
+      "email": "miha.jerman@example.com",
+      "phoneNumber": "+386 40 168 493",
+      "birthdate": "2001-11-17",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 63,
+      "firstName": "Zala",
+      "lastName": "Novak",
+      "email": "zala.novak@example.com",
+      "phoneNumber": "+386 70 131 204",
+      "birthdate": "1998-03-03",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 64,
+      "firstName": "Ines",
+      "lastName": "Jereb",
+      "email": "ines.jereb@example.com",
+      "phoneNumber": "+386 31 464 909",
+      "birthdate": "1999-02-07",
+      "enrolledCourses": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 65,
+      "firstName": "Hana",
+      "lastName": "Čebulj",
+      "email": "hana.cebulj@example.com",
+      "phoneNumber": "+386 30 266 181",
+      "birthdate": "1998-04-13",
+      "enrolledCourses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 66,
+      "firstName": "Matic",
+      "lastName": "Bajt",
+      "email": "matic.bajt@example.com",
+      "phoneNumber": "+386 41 951 963",
+      "birthdate": "2000-08-11",
+      "enrolledCourses": [
+        4
+      ]
+    },
+    {
+      "id": 67,
+      "firstName": "Gregor",
+      "lastName": "Petek",
+      "email": "gregor.petek@example.com",
+      "phoneNumber": "+386 30 391 737",
+      "birthdate": "2000-03-15",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 68,
+      "firstName": "Žiga",
+      "lastName": "Furlan",
+      "email": "ziga.furlan@example.com",
+      "phoneNumber": "+386 70 500 712",
+      "birthdate": "1999-12-11",
+      "enrolledCourses": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 69,
+      "firstName": "Lara",
+      "lastName": "Pavlin",
+      "email": "lara.pavlin@example.com",
+      "phoneNumber": "+386 30 880 604",
+      "birthdate": "1998-08-27",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 70,
+      "firstName": "Tim",
+      "lastName": "Krajnc",
+      "email": "tim.krajnc@example.com",
+      "phoneNumber": "+386 41 832 228",
+      "birthdate": "2000-10-20",
+      "enrolledCourses": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 71,
+      "firstName": "Ela",
+      "lastName": "Petek",
+      "email": "ela.petek@example.com",
+      "phoneNumber": "+386 70 788 170",
+      "birthdate": "1999-10-04",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 72,
+      "firstName": "Tina",
+      "lastName": "Vidmar",
+      "email": "tina.vidmar@example.com",
+      "phoneNumber": "+386 31 951 141",
+      "birthdate": "2001-07-15",
+      "enrolledCourses": [
+        4
+      ]
+    },
+    {
+      "id": 73,
+      "firstName": "Hana",
+      "lastName": "Bizjak",
+      "email": "hana.bizjak@example.com",
+      "phoneNumber": "+386 30 348 669",
+      "birthdate": "1998-01-18",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 74,
+      "firstName": "Ema",
+      "lastName": "Repnik",
+      "email": "ema.repnik@example.com",
+      "phoneNumber": "+386 30 584 904",
+      "birthdate": "2000-08-11",
+      "enrolledCourses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 75,
+      "firstName": "Nika",
+      "lastName": "Košir",
+      "email": "nika.kosir@example.com",
+      "phoneNumber": "+386 40 937 800",
+      "birthdate": "2001-07-21",
+      "enrolledCourses": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 76,
+      "firstName": "Lia",
+      "lastName": "Potočnik",
+      "email": "lia.potocnik@example.com",
+      "phoneNumber": "+386 40 655 608",
+      "birthdate": "1998-10-27",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 77,
+      "firstName": "Mia",
+      "lastName": "Planinc",
+      "email": "mia.planinc@example.com",
+      "phoneNumber": "+386 30 879 491",
+      "birthdate": "1999-04-04",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 78,
+      "firstName": "Tian",
+      "lastName": "Hafner",
+      "email": "tian.hafner@example.com",
+      "phoneNumber": "+386 40 336 220",
+      "birthdate": "1998-09-09",
+      "enrolledCourses": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 79,
+      "firstName": "Mark",
+      "lastName": "Pavlin",
+      "email": "mark.pavlin@example.com",
+      "phoneNumber": "+386 41 984 807",
+      "birthdate": "1998-08-05",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 80,
+      "firstName": "Eva",
+      "lastName": "Kavčič",
+      "email": "eva.kavcic@example.com",
+      "phoneNumber": "+386 51 823 774",
+      "birthdate": "1998-08-15",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 81,
+      "firstName": "Jan",
+      "lastName": "Drobnič",
+      "email": "jan.drobnic@example.com",
+      "phoneNumber": "+386 31 189 657",
+      "birthdate": "2001-12-11",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 82,
+      "firstName": "Maja",
+      "lastName": "Majcen",
+      "email": "maja.majcen@example.com",
+      "phoneNumber": "+386 51 988 212",
+      "birthdate": "1999-01-25",
+      "enrolledCourses": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 83,
+      "firstName": "Matej",
+      "lastName": "Šinko",
+      "email": "matej.sinko@example.com",
+      "phoneNumber": "+386 41 275 357",
+      "birthdate": "1998-11-11",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 84,
+      "firstName": "Maja",
+      "lastName": "Slak",
+      "email": "maja.slak@example.com",
+      "phoneNumber": "+386 30 918 192",
+      "birthdate": "2000-08-28",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 85,
+      "firstName": "Špela",
+      "lastName": "Petek",
+      "email": "spela.petek@example.com",
+      "phoneNumber": "+386 70 692 981",
+      "birthdate": "2001-04-10",
+      "enrolledCourses": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 86,
+      "firstName": "Noah",
+      "lastName": "Horvat",
+      "email": "noah.horvat@example.com",
+      "phoneNumber": "+386 51 296 846",
+      "birthdate": "1998-07-10",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 87,
+      "firstName": "Tamara",
+      "lastName": "Drobnič",
+      "email": "tamara.drobnic@example.com",
+      "phoneNumber": "+386 30 921 973",
+      "birthdate": "1998-04-25",
+      "enrolledCourses": [
+        1
+      ]
+    },
+    {
+      "id": 88,
+      "firstName": "Denis",
+      "lastName": "Cigler",
+      "email": "denis.cigler@example.com",
+      "phoneNumber": "+386 70 895 134",
+      "birthdate": "2001-08-04",
+      "enrolledCourses": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 89,
+      "firstName": "Neža",
+      "lastName": "Lesnik",
+      "email": "neza.lesnik@example.com",
+      "phoneNumber": "+386 70 738 476",
+      "birthdate": "1998-12-26",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 90,
+      "firstName": "Klemen",
+      "lastName": "Zorman",
+      "email": "klemen.zorman@example.com",
+      "phoneNumber": "+386 40 536 853",
+      "birthdate": "1999-06-12",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 91,
+      "firstName": "Luka",
+      "lastName": "Dolenc",
+      "email": "luka.dolenc@example.com",
+      "phoneNumber": "+386 40 829 353",
+      "birthdate": "2001-07-07",
+      "enrolledCourses": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 92,
+      "firstName": "Meta",
+      "lastName": "Perko",
+      "email": "meta.perko@example.com",
+      "phoneNumber": "+386 40 568 599",
+      "birthdate": "2001-09-17",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 93,
+      "firstName": "Liam",
+      "lastName": "Slak",
+      "email": "liam.slak@example.com",
+      "phoneNumber": "+386 70 244 562",
+      "birthdate": "1999-07-14",
+      "enrolledCourses": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 94,
+      "firstName": "Rok",
+      "lastName": "Košir",
+      "email": "rok.kosir@example.com",
+      "phoneNumber": "+386 30 900 944",
+      "birthdate": "1998-01-06",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 95,
+      "firstName": "Martin",
+      "lastName": "Kralj",
+      "email": "martin.kralj@example.com",
+      "phoneNumber": "+386 41 550 250",
+      "birthdate": "2001-04-10",
+      "enrolledCourses": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 96,
+      "firstName": "Jan",
+      "lastName": "Šinko",
+      "email": "jan.sinko@example.com",
+      "phoneNumber": "+386 41 888 537",
+      "birthdate": "1998-05-13",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 97,
+      "firstName": "Zala",
+      "lastName": "Močnik",
+      "email": "zala.mocnik@example.com",
+      "phoneNumber": "+386 51 455 235",
+      "birthdate": "1999-06-27",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 98,
+      "firstName": "Neja",
+      "lastName": "Bizjak",
+      "email": "neja.bizjak@example.com",
+      "phoneNumber": "+386 30 346 597",
+      "birthdate": "2000-05-01",
+      "enrolledCourses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 99,
+      "firstName": "Filip",
+      "lastName": "Novak",
+      "email": "filip.novak@example.com",
+      "phoneNumber": "+386 30 985 116",
+      "birthdate": "2000-04-11",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 100,
+      "firstName": "Rok",
+      "lastName": "Horvat",
+      "email": "rok.horvat@example.com",
+      "phoneNumber": "+386 41 219 259",
+      "birthdate": "1999-12-06",
+      "enrolledCourses": [
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "id": 101,
+      "firstName": "Ela",
+      "lastName": "Šinko",
+      "email": "ela.sinko@example.com",
+      "phoneNumber": "+386 51 229 545",
+      "birthdate": "2000-10-04",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 102,
+      "firstName": "Neža",
+      "lastName": "Lesnik",
+      "email": "neza.lesnik@example.com",
+      "phoneNumber": "+386 51 168 925",
+      "birthdate": "2000-04-06",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 103,
+      "firstName": "Ela",
+      "lastName": "Slak",
+      "email": "ela.slak@example.com",
+      "phoneNumber": "+386 40 119 759",
+      "birthdate": "1998-02-07",
+      "enrolledCourses": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 104,
+      "firstName": "Urban",
+      "lastName": "Kosar",
+      "email": "urban.kosar@example.com",
+      "phoneNumber": "+386 30 456 381",
+      "birthdate": "2000-06-02",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 105,
+      "firstName": "Leon",
+      "lastName": "Košir",
+      "email": "leon.kosir@example.com",
+      "phoneNumber": "+386 51 895 366",
+      "birthdate": "1999-10-23",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 106,
+      "firstName": "Lana",
+      "lastName": "Bajt",
+      "email": "lana.bajt@example.com",
+      "phoneNumber": "+386 70 163 535",
+      "birthdate": "2001-09-23",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 107,
+      "firstName": "Meta",
+      "lastName": "Košir",
+      "email": "meta.kosir@example.com",
+      "phoneNumber": "+386 40 992 136",
+      "birthdate": "2000-12-04",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 108,
+      "firstName": "Miha",
+      "lastName": "Jerman",
+      "email": "miha.jerman@example.com",
+      "phoneNumber": "+386 70 185 380",
+      "birthdate": "1999-07-15",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 109,
+      "firstName": "Taja",
+      "lastName": "Močnik",
+      "email": "taja.mocnik@example.com",
+      "phoneNumber": "+386 30 368 563",
+      "birthdate": "2001-12-11",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 110,
+      "firstName": "Nik",
+      "lastName": "Majcen",
+      "email": "nik.majcen@example.com",
+      "phoneNumber": "+386 40 866 964",
+      "birthdate": "2001-06-18",
+      "enrolledCourses": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 111,
+      "firstName": "Liam",
+      "lastName": "Furlan",
+      "email": "liam.furlan@example.com",
+      "phoneNumber": "+386 41 989 307",
+      "birthdate": "2000-03-17",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 112,
+      "firstName": "Nika",
+      "lastName": "Furlan",
+      "email": "nika.furlan@example.com",
+      "phoneNumber": "+386 51 863 636",
+      "birthdate": "1999-04-05",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 113,
+      "firstName": "Lia",
+      "lastName": "Krajnc",
+      "email": "lia.krajnc@example.com",
+      "phoneNumber": "+386 30 468 845",
+      "birthdate": "2001-02-13",
+      "enrolledCourses": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 114,
+      "firstName": "Jan",
+      "lastName": "Hafner",
+      "email": "jan.hafner@example.com",
+      "phoneNumber": "+386 31 177 201",
+      "birthdate": "1998-07-12",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 115,
+      "firstName": "Neža",
+      "lastName": "Bergant",
+      "email": "neza.bergant@example.com",
+      "phoneNumber": "+386 41 763 349",
+      "birthdate": "2001-12-15",
+      "enrolledCourses": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 116,
+      "firstName": "Vita",
+      "lastName": "Kobal",
+      "email": "vita.kobal@example.com",
+      "phoneNumber": "+386 41 215 119",
+      "birthdate": "1999-10-05",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 117,
+      "firstName": "Katarina",
+      "lastName": "Planinc",
+      "email": "katarina.planinc@example.com",
+      "phoneNumber": "+386 40 314 886",
+      "birthdate": "2000-07-18",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 118,
+      "firstName": "Zoja",
+      "lastName": "Škarabot",
+      "email": "zoja.skarabot@example.com",
+      "phoneNumber": "+386 40 687 609",
+      "birthdate": "2000-06-14",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 119,
+      "firstName": "Lia",
+      "lastName": "Lenart",
+      "email": "lia.lenart@example.com",
+      "phoneNumber": "+386 30 791 121",
+      "birthdate": "2001-08-28",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 120,
+      "firstName": "Anja",
+      "lastName": "Furlan",
+      "email": "anja.furlan@example.com",
+      "phoneNumber": "+386 40 327 735",
+      "birthdate": "1999-05-15",
+      "enrolledCourses": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 121,
+      "firstName": "Enej",
+      "lastName": "Hafner",
+      "email": "enej.hafner@example.com",
+      "phoneNumber": "+386 31 204 973",
+      "birthdate": "1999-06-14",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 122,
+      "firstName": "Ana",
+      "lastName": "Podgornik",
+      "email": "ana.podgornik@example.com",
+      "phoneNumber": "+386 41 139 618",
+      "birthdate": "2001-12-18",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 123,
+      "firstName": "Katja",
+      "lastName": "Oblak",
+      "email": "katja.oblak@example.com",
+      "phoneNumber": "+386 41 673 991",
+      "birthdate": "1999-07-05",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 124,
+      "firstName": "Nik",
+      "lastName": "Podgornik",
+      "email": "nik.podgornik@example.com",
+      "phoneNumber": "+386 30 261 793",
+      "birthdate": "2000-01-04",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 125,
+      "firstName": "Miha",
+      "lastName": "Gregorič",
+      "email": "miha.gregoric@example.com",
+      "phoneNumber": "+386 31 580 118",
+      "birthdate": "2001-07-10",
+      "enrolledCourses": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 126,
+      "firstName": "Klara",
+      "lastName": "Rozman",
+      "email": "klara.rozman@example.com",
+      "phoneNumber": "+386 31 828 904",
+      "birthdate": "2001-05-28",
+      "enrolledCourses": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 127,
+      "firstName": "Ines",
+      "lastName": "Zorman",
+      "email": "ines.zorman@example.com",
+      "phoneNumber": "+386 51 991 468",
+      "birthdate": "2000-08-25",
+      "enrolledCourses": [
+        4
+      ]
+    },
+    {
+      "id": 128,
+      "firstName": "Tina",
+      "lastName": "Sovdat",
+      "email": "tina.sovdat@example.com",
+      "phoneNumber": "+386 31 277 434",
+      "birthdate": "2000-07-01",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 129,
+      "firstName": "Denis",
+      "lastName": "Pirnat",
+      "email": "denis.pirnat@example.com",
+      "phoneNumber": "+386 51 589 519",
+      "birthdate": "1998-06-01",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 130,
+      "firstName": "Lara",
+      "lastName": "Zorman",
+      "email": "lara.zorman@example.com",
+      "phoneNumber": "+386 31 710 365",
+      "birthdate": "2000-06-05",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 131,
+      "firstName": "Katja",
+      "lastName": "Bergant",
+      "email": "katja.bergant@example.com",
+      "phoneNumber": "+386 41 908 873",
+      "birthdate": "1999-07-26",
+      "enrolledCourses": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 132,
+      "firstName": "Miha",
+      "lastName": "Kosar",
+      "email": "miha.kosar@example.com",
+      "phoneNumber": "+386 30 207 287",
+      "birthdate": "2001-05-15",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 133,
+      "firstName": "Zala",
+      "lastName": "Valant",
+      "email": "zala.valant@example.com",
+      "phoneNumber": "+386 40 610 136",
+      "birthdate": "1998-04-04",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 134,
+      "firstName": "Vid",
+      "lastName": "Lesnik",
+      "email": "vid.lesnik@example.com",
+      "phoneNumber": "+386 30 611 305",
+      "birthdate": "2001-12-05",
+      "enrolledCourses": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 135,
+      "firstName": "Enej",
+      "lastName": "Stojković",
+      "email": "enej.stojkovic@example.com",
+      "phoneNumber": "+386 51 899 512",
+      "birthdate": "1999-08-13",
+      "enrolledCourses": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 136,
+      "firstName": "Lovro",
+      "lastName": "Sovdat",
+      "email": "lovro.sovdat@example.com",
+      "phoneNumber": "+386 40 243 969",
+      "birthdate": "1998-12-12",
+      "enrolledCourses": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 137,
+      "firstName": "Gregor",
+      "lastName": "Rozman",
+      "email": "gregor.rozman@example.com",
+      "phoneNumber": "+386 40 298 675",
+      "birthdate": "2001-12-14",
+      "enrolledCourses": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 138,
+      "firstName": "Mark",
+      "lastName": "Golob",
+      "email": "mark.golob@example.com",
+      "phoneNumber": "+386 30 468 961",
+      "birthdate": "2001-07-17",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 139,
+      "firstName": "Zoja",
+      "lastName": "Krajnc",
+      "email": "zoja.krajnc@example.com",
+      "phoneNumber": "+386 51 278 751",
+      "birthdate": "1998-06-11",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 140,
+      "firstName": "Anja",
+      "lastName": "Gregorič",
+      "email": "anja.gregoric@example.com",
+      "phoneNumber": "+386 30 578 578",
+      "birthdate": "1998-04-13",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 141,
+      "firstName": "Katja",
+      "lastName": "Hafner",
+      "email": "katja.hafner@example.com",
+      "phoneNumber": "+386 40 451 314",
+      "birthdate": "1998-02-23",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 142,
+      "firstName": "Jure",
+      "lastName": "Škarabot",
+      "email": "jure.skarabot@example.com",
+      "phoneNumber": "+386 41 616 562",
+      "birthdate": "2001-11-28",
+      "enrolledCourses": [
+        1
+      ]
+    },
+    {
+      "id": 143,
+      "firstName": "Vita",
+      "lastName": "Zorman",
+      "email": "vita.zorman@example.com",
+      "phoneNumber": "+386 51 813 699",
+      "birthdate": "2000-07-27",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 144,
+      "firstName": "Ana",
+      "lastName": "Podgornik",
+      "email": "ana.podgornik@example.com",
+      "phoneNumber": "+386 31 432 827",
+      "birthdate": "1999-12-04",
+      "enrolledCourses": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 145,
+      "firstName": "Katja",
+      "lastName": "Kos",
+      "email": "katja.kos@example.com",
+      "phoneNumber": "+386 41 555 436",
+      "birthdate": "2000-07-18",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 146,
+      "firstName": "Anja",
+      "lastName": "Gregorič",
+      "email": "anja.gregoric@example.com",
+      "phoneNumber": "+386 51 902 889",
+      "birthdate": "2001-02-03",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 147,
+      "firstName": "Žan",
+      "lastName": "Majcen",
+      "email": "zan.majcen@example.com",
+      "phoneNumber": "+386 30 337 893",
+      "birthdate": "2001-10-25",
+      "enrolledCourses": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 148,
+      "firstName": "Lucija",
+      "lastName": "Kosar",
+      "email": "lucija.kosar@example.com",
+      "phoneNumber": "+386 30 561 315",
+      "birthdate": "2001-07-19",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 149,
+      "firstName": "Liam",
+      "lastName": "Sovdat",
+      "email": "liam.sovdat@example.com",
+      "phoneNumber": "+386 51 912 668",
+      "birthdate": "1998-06-19",
+      "enrolledCourses": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 150,
+      "firstName": "Ema",
+      "lastName": "Pirnat",
+      "email": "ema.pirnat@example.com",
+      "phoneNumber": "+386 41 147 403",
+      "birthdate": "1999-07-03",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 151,
+      "firstName": "Maja",
+      "lastName": "Kobal",
+      "email": "maja.kobal@example.com",
+      "phoneNumber": "+386 41 870 889",
+      "birthdate": "2000-08-26",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 152,
+      "firstName": "Ana",
+      "lastName": "Turk",
+      "email": "ana.turk@example.com",
+      "phoneNumber": "+386 40 155 635",
+      "birthdate": "2001-07-07",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 153,
+      "firstName": "Nika",
+      "lastName": "Žagar",
+      "email": "nika.zagar@example.com",
+      "phoneNumber": "+386 70 899 718",
+      "birthdate": "2000-09-20",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 154,
+      "firstName": "Katarina",
+      "lastName": "Bizjak",
+      "email": "katarina.bizjak@example.com",
+      "phoneNumber": "+386 51 308 227",
+      "birthdate": "1999-10-22",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 155,
+      "firstName": "Luka",
+      "lastName": "Kavčič",
+      "email": "luka.kavcic@example.com",
+      "phoneNumber": "+386 30 598 484",
+      "birthdate": "2000-11-08",
+      "enrolledCourses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 156,
+      "firstName": "Tilen",
+      "lastName": "Petrič",
+      "email": "tilen.petric@example.com",
+      "phoneNumber": "+386 70 475 688",
+      "birthdate": "1998-12-25",
+      "enrolledCourses": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 157,
+      "firstName": "Ema",
+      "lastName": "Čebulj",
+      "email": "ema.cebulj@example.com",
+      "phoneNumber": "+386 41 324 260",
+      "birthdate": "1998-10-18",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 158,
+      "firstName": "Žiga",
+      "lastName": "Turk",
+      "email": "ziga.turk@example.com",
+      "phoneNumber": "+386 40 352 139",
+      "birthdate": "2000-02-02",
+      "enrolledCourses": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 159,
+      "firstName": "Noah",
+      "lastName": "Tratnik",
+      "email": "noah.tratnik@example.com",
+      "phoneNumber": "+386 30 684 768",
+      "birthdate": "2001-09-05",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 160,
+      "firstName": "Tjaša",
+      "lastName": "Žagar",
+      "email": "tjasa.zagar@example.com",
+      "phoneNumber": "+386 31 451 482",
+      "birthdate": "1999-04-11",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 161,
+      "firstName": "Filip",
+      "lastName": "Kosar",
+      "email": "filip.kosar@example.com",
+      "phoneNumber": "+386 31 223 813",
+      "birthdate": "2001-02-05",
+      "enrolledCourses": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 162,
+      "firstName": "Mark",
+      "lastName": "Vidmar",
+      "email": "mark.vidmar@example.com",
+      "phoneNumber": "+386 31 484 654",
+      "birthdate": "1998-10-05",
+      "enrolledCourses": [
+        1
+      ]
+    },
+    {
+      "id": 163,
+      "firstName": "Katarina",
+      "lastName": "Repnik",
+      "email": "katarina.repnik@example.com",
+      "phoneNumber": "+386 70 423 786",
+      "birthdate": "1998-10-17",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 164,
+      "firstName": "Žiga",
+      "lastName": "Toplak",
+      "email": "ziga.toplak@example.com",
+      "phoneNumber": "+386 70 187 358",
+      "birthdate": "2000-12-17",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 165,
+      "firstName": "Urška",
+      "lastName": "Urbanč",
+      "email": "urska.urbanc@example.com",
+      "phoneNumber": "+386 31 976 645",
+      "birthdate": "2000-05-27",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 166,
+      "firstName": "Sara",
+      "lastName": "Kovač",
+      "email": "sara.kovac@example.com",
+      "phoneNumber": "+386 30 514 607",
+      "birthdate": "1999-03-20",
+      "enrolledCourses": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 167,
+      "firstName": "Lucija",
+      "lastName": "Planinc",
+      "email": "lucija.planinc@example.com",
+      "phoneNumber": "+386 31 260 476",
+      "birthdate": "2000-10-24",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 168,
+      "firstName": "Nejc",
+      "lastName": "Perko",
+      "email": "nejc.perko@example.com",
+      "phoneNumber": "+386 51 894 866",
+      "birthdate": "2000-03-02",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 169,
+      "firstName": "Gregor",
+      "lastName": "Petrič",
+      "email": "gregor.petric@example.com",
+      "phoneNumber": "+386 41 881 859",
+      "birthdate": "2000-12-04",
+      "enrolledCourses": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 170,
+      "firstName": "Neža",
+      "lastName": "Oblak",
+      "email": "neza.oblak@example.com",
+      "phoneNumber": "+386 70 297 281",
+      "birthdate": "1998-06-10",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 171,
+      "firstName": "David",
+      "lastName": "Bajt",
+      "email": "david.bajt@example.com",
+      "phoneNumber": "+386 51 370 409",
+      "birthdate": "1998-10-03",
+      "enrolledCourses": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 172,
+      "firstName": "Nika",
+      "lastName": "Kos",
+      "email": "nika.kos@example.com",
+      "phoneNumber": "+386 30 612 386",
+      "birthdate": "2001-12-04",
+      "enrolledCourses": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 173,
+      "firstName": "Nika",
+      "lastName": "Zajc",
+      "email": "nika.zajc@example.com",
+      "phoneNumber": "+386 31 812 713",
+      "birthdate": "2000-01-14",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 174,
+      "firstName": "Tina",
+      "lastName": "Golob",
+      "email": "tina.golob@example.com",
+      "phoneNumber": "+386 40 514 854",
+      "birthdate": "1999-11-26",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 175,
+      "firstName": "Lucija",
+      "lastName": "Dolenc",
+      "email": "lucija.dolenc@example.com",
+      "phoneNumber": "+386 40 866 289",
+      "birthdate": "1999-08-15",
+      "enrolledCourses": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 176,
+      "firstName": "Hana",
+      "lastName": "Horvat",
+      "email": "hana.horvat@example.com",
+      "phoneNumber": "+386 41 256 800",
+      "birthdate": "1998-11-11",
+      "enrolledCourses": [
+        3
+      ]
+    },
+    {
+      "id": 177,
+      "firstName": "Nik",
+      "lastName": "Jerman",
+      "email": "nik.jerman@example.com",
+      "phoneNumber": "+386 41 424 672",
+      "birthdate": "2000-05-27",
+      "enrolledCourses": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 178,
+      "firstName": "Maja",
+      "lastName": "Zupan",
+      "email": "maja.zupan@example.com",
+      "phoneNumber": "+386 31 913 276",
+      "birthdate": "2000-07-07",
+      "enrolledCourses": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 179,
+      "firstName": "Marko",
+      "lastName": "Repnik",
+      "email": "marko.repnik@example.com",
+      "phoneNumber": "+386 41 836 991",
+      "birthdate": "2001-08-03",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 180,
+      "firstName": "Rok",
+      "lastName": "Jerman",
+      "email": "rok.jerman@example.com",
+      "phoneNumber": "+386 41 439 806",
+      "birthdate": "1998-08-27",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 181,
+      "firstName": "Filip",
+      "lastName": "Novak",
+      "email": "filip.novak@example.com",
+      "phoneNumber": "+386 31 638 635",
+      "birthdate": "2000-05-20",
+      "enrolledCourses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 182,
+      "firstName": "Urška",
+      "lastName": "Krajnc",
+      "email": "urska.krajnc@example.com",
+      "phoneNumber": "+386 51 101 757",
+      "birthdate": "1998-01-12",
+      "enrolledCourses": [
+        1
+      ]
+    },
+    {
+      "id": 183,
+      "firstName": "Blaž",
+      "lastName": "Drobnič",
+      "email": "blaz.drobnic@example.com",
+      "phoneNumber": "+386 70 638 929",
+      "birthdate": "2001-09-27",
+      "enrolledCourses": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 184,
+      "firstName": "Mia",
+      "lastName": "Bizjak",
+      "email": "mia.bizjak@example.com",
+      "phoneNumber": "+386 51 905 990",
+      "birthdate": "1999-09-11",
+      "enrolledCourses": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 185,
+      "firstName": "Noah",
+      "lastName": "Škarabot",
+      "email": "noah.skarabot@example.com",
+      "phoneNumber": "+386 40 593 698",
+      "birthdate": "2001-11-01",
+      "enrolledCourses": [
+        2
+      ]
+    },
+    {
+      "id": 186,
+      "firstName": "Zala",
+      "lastName": "Turk",
+      "email": "zala.turk@example.com",
+      "phoneNumber": "+386 51 940 297",
+      "birthdate": "2001-06-08",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 187,
+      "firstName": "Matej",
+      "lastName": "Jerman",
+      "email": "matej.jerman@example.com",
+      "phoneNumber": "+386 31 615 817",
+      "birthdate": "2000-04-23",
+      "enrolledCourses": [
+        5
+      ]
+    },
+    {
+      "id": 188,
+      "firstName": "Anja",
+      "lastName": "Bohinc",
+      "email": "anja.bohinc@example.com",
+      "phoneNumber": "+386 30 420 767",
+      "birthdate": "1999-03-24",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 189,
+      "firstName": "Nina",
+      "lastName": "Cigler",
+      "email": "nina.cigler@example.com",
+      "phoneNumber": "+386 40 249 490",
+      "birthdate": "1999-08-12",
+      "enrolledCourses": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 190,
+      "firstName": "Klara",
+      "lastName": "Hafner",
+      "email": "klara.hafner@example.com",
+      "phoneNumber": "+386 30 850 116",
+      "birthdate": "1998-05-13",
+      "enrolledCourses": [
+        1
+      ]
+    },
+    {
+      "id": 191,
+      "firstName": "Klemen",
+      "lastName": "Kovač",
+      "email": "klemen.kovac@example.com",
+      "phoneNumber": "+386 31 564 687",
+      "birthdate": "1999-01-06",
+      "enrolledCourses": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 192,
+      "firstName": "Enej",
+      "lastName": "Cigler",
+      "email": "enej.cigler@example.com",
+      "phoneNumber": "+386 31 342 226",
+      "birthdate": "1998-08-06",
+      "enrolledCourses": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 193,
+      "firstName": "Matic",
+      "lastName": "Sovdat",
+      "email": "matic.sovdat@example.com",
+      "phoneNumber": "+386 30 463 565",
+      "birthdate": "1999-06-15",
+      "enrolledCourses": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 194,
+      "firstName": "Leon",
+      "lastName": "Zupan",
+      "email": "leon.zupan@example.com",
+      "phoneNumber": "+386 30 902 381",
+      "birthdate": "2001-04-25",
+      "enrolledCourses": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 195,
+      "firstName": "Urban",
+      "lastName": "Repnik",
+      "email": "urban.repnik@example.com",
+      "phoneNumber": "+386 40 590 252",
+      "birthdate": "2000-10-12",
+      "enrolledCourses": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 196,
+      "firstName": "Klara",
+      "lastName": "Jerman",
+      "email": "klara.jerman@example.com",
+      "phoneNumber": "+386 51 888 592",
+      "birthdate": "2001-04-17",
+      "enrolledCourses": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 197,
+      "firstName": "Blaž",
+      "lastName": "Petrič",
+      "email": "blaz.petric@example.com",
+      "phoneNumber": "+386 70 282 511",
+      "birthdate": "2000-12-22",
+      "enrolledCourses": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 198,
+      "firstName": "Eva",
+      "lastName": "Kosar",
+      "email": "eva.kosar@example.com",
+      "phoneNumber": "+386 30 544 229",
+      "birthdate": "2000-11-14",
+      "enrolledCourses": [
+        5
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to Computer Science",
+      "code": "CS101"
+    },
+    {
+      "id": 2,
+      "name": "Data Structures and Algorithms",
+      "code": "CS201"
+    },
+    {
+      "id": 3,
+      "name": "Web Development",
+      "code": "CS301"
+    },
+    {
+      "id": 4,
+      "name": "Database Management Systems",
+      "code": "CS302"
+    },
+    {
+      "id": 5,
+      "name": "Software Engineering",
+      "code": "CS401"
+    }
+  ]
+}

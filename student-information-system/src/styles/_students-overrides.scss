@@ -1,0 +1,6 @@
+﻿// Student area overrides split by feature for maintainability
+@use './students/overview';
+@use './students/table';
+@use './students/courses';
+@use './students/dialogs';
+@use './students/responsive';
